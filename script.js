@@ -84,9 +84,9 @@ function calculateIMC() {
   };
 
   function calcularAgua() {
-    const peso = document.getElementById("peso").value;
+    const peso1 = document.getElementById("peso1").value;
     const aguaPorKg = 30; // Ajuste este valor conforme necessário
-    const aguaDiaria = peso * aguaPorKg;
+    const aguaDiaria = peso1 * aguaPorKg;
   
     document.getElementById("valor").textContent = `Você precisa beber cerca de ${aguaDiaria}ml de água por dia.`;
   };
